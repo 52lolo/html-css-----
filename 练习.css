@@ -1,0 +1,127 @@
+.lolo121,input:hover
+{
+    background-color: antiquewhite;
+}
+
+.lolo ::after
+{
+    content: "";
+    clear: both;
+    display: flex;
+    flex-direction: column;
+}
+
+.lolo1::after
+ {
+    content: "";
+    clear: both;
+    display: flex;
+    height: 20px;
+    border-bottom: 0.5px solid black;
+}
+
+.lolo11 
+{
+    float: left;
+    display: flex;
+}
+
+.lolo12 
+{
+    display: flex;
+    float: right;
+}
+
+.lolo121 
+{
+    margin-left: 5px;
+    background-color: beige;
+}
+
+.lolo2
+{
+    display: flex;
+    border: none;
+    margin-top: 30px;
+    border: 0.5px solid #008cd6;
+    width: 435px;
+    margin-left: 600px;
+}
+
+.lolo2>form>input
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    width: 250px;
+}
+
+.lolo2>form>select
+{
+    padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+.lolo21>input
+{
+    padding-bottom: 20px;
+    padding-right: 33px;
+    background-color:#008cd6 ;
+    border: 1px solid #008cd6;
+}
+
+.lolo3
+{
+    float: left;
+}
+
+.phone
+{
+    float: right;
+    margin-top: -40px;
+    width: 180px;
+}
+
+.phone i 
+{
+    float: left;
+    font-size: 25px;
+    font-style: normal;
+    color: #ff7b0c;
+}
+
+.daohan
+{
+    height: 425px;
+    margin-top: 65px;
+}
+
+.nav 
+{
+    height: 44px;
+    background-color: #4c5a65;
+}
+
+.nav li 
+{
+    text-align: center;
+    float: left;
+    width: 100px;
+    line-height: 44px;
+}
+
+.nav li a
+ {
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav li:hover 
+{
+    background-color: #008cd6;
+}
+
+.nav>ul
+{
+    list-style-type:none;
+}
